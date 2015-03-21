@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    //建立optionMenu 分別為BackGround and Wallpaper，並在細分為黃藍紅三色、三張圖片供使用者選擇
+    //建立Background選單
+    <item
+        android:id="@+id/menuBG"
+        android:title="@string/menuBG">
+        <menu>
+            <item
+                android:id="@+id/submenuBGY"
+                android:title="@string/submenuBGY"/>
+            <item
+                android:id="@+id/submenuBGB"
+                android:title="@string/submenuBGB"/>
+            <item
+                android:id="@+id/submenuBGR"
+                android:title="@string/submenuBGR"/>
+        </menu>
+    </item>
+    //建立Wallpaper選單
+    <item
+        android:id="@+id/menuWP"
+        android:title="@string/menuWP">
+        <menu>
+            <item
+                android:id="@+id/submenuWP1"
+                android:icon="@drawable/a"
+                android:title="@string/submenuWP1"/>
+            <item
+                android:id="@+id/submenuWP2"
+                android:icon="@drawable/b"
+                android:title="@string/submenuWP2"/>
+            <item
+                android:id="@+id/submenuWP3"
+                android:icon="@drawable/c"
+                android:title="@string/submenuWP3"/>
+        </menu>
+    </item>
+
+
+</menu>

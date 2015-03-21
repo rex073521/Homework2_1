@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Homework2_1</string>
+
+    <string name="textV">請直接點選目錄按鈕選擇背景</string>
+    <string name="menuBG">Change Background Color</string>
+    <string name="submenuBGY">Yellow</string>
+    <string name="submenuBGB">Blue</string>
+    <string name="submenuBGR">Red</string>
+    <string name="menuWP">Change Wallpaper</string>
+    <string name="submenuWP1">Change Wallpaper 1</string>
+    <string name="submenuWP2">Change Wallpaper 2</string>
+    <string name="submenuWP3">Change Wallpaper 3</string>
+    <string name="action_settings">Settings</string>
+</resources>
